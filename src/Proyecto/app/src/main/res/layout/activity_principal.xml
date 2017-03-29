@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="net.edd.proyecto.Principal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:id="@+id/textView2"
+        android:layout_marginTop="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/textUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:layout_below="@+id/textUsuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/textContra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textUsuario"
+        android:layout_alignStart="@+id/textUsuario" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textContra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Empresa"
+        android:id="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/textEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textContra"
+        android:layout_alignStart="@+id/textContra"
+        android:layout_below="@+id/textView6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Departamento"
+        android:layout_below="@+id/textEmpresa"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/textDepartamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textEmpresa"
+        android:layout_alignStart="@+id/textEmpresa"
+        android:layout_below="@+id/textView8"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_marginBottom="34dp"
+        android:text="Ingresar" />
+
+    <Button
+        android:id="@+id/hola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignBaseline="@+id/ingresar"
+        android:layout_alignBottom="@+id/ingresar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+</RelativeLayout>

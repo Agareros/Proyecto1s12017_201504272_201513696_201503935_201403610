@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\ArbolB\ArbolB\bin\Debug\ArbolB.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\ArbolB\ArbolB\bin\Debug\ArbolB.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\ArbolB\ArbolB\bin\Debug\ArbolB.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ArbolB\ArbolB\obj\Debug\ArbolB.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ArbolB\ArbolB\obj\Debug\ArbolB.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\ArbolB\ArbolB\obj\Debug\ArbolB.pdb
